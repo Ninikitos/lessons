@@ -1,0 +1,79 @@
+@import url("reset.css");
+
+/* global */
+* {
+  color: gray;
+}
+[class*="-atribute"]{
+  color: red;
+}
+
+/* hero */
+a{
+  color: rgb(12, 76, 186);
+}
+.meta-info > a{
+  color: blueviolet;
+}
+
+/* Navigation */
+ul .menu-item{
+  color: fuchsia;
+}
+
+/* description */
+/* для элемента у которого есть два класса */
+.description-title.title{
+  color: slateblue;
+}
+.title{
+  color: coral;
+}
+
+a.description-link{
+  color: crimson;
+}
+
+/* required-skills */
+#top-skill{
+  color: springgreen;
+}
+#secondary-skill{
+  color: orange;
+}
+.required-skills-title, .required-skills-item{
+  color: black;
+}
+/* для каждого вложенного .text-pink в .required-skills-item */
+.required-skills-item .text-pink{
+  color: pink;
+}
+
+/* responsibilities */
+/* для всех а с классом .responsibilities-items */
+.responsibilities-items a{
+  color: palevioletred;
+}
+/* general-info */
+/* для всех на первом уровне вложености */
+.general-info > p{
+  color: gold;
+}
+/* для всех после элемента к которому обратились */
+.general-info-special ~ p{
+  color: maroon;
+}
+/* для первого элемента на том же уровне вложености */
+.general-info-special + h5{
+  color: chocolate;
+}
+
+/* footer */
+footer, 
+.footer-title,
+.footer-link{
+  color: darkslategrey;
+}
+.footer-social *{
+  color: lightgreen;
+}
