@@ -1,0 +1,48 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #7D7D7D;
+}
+.title,
+.sub-title{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.text{
+  line-height: 1.46;
+  text-indent: 20px;
+}
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: #37393F;
+  text-transform: capitalize;
+  line-height: 1.27;
+}
+.sub-title{
+  font-size: 20px;
+  color: #6B77E5;
+  line-height: 1.27;
+  text-shadow: 5px 5px 1px black;
+}
+.blog-title{
+  color: #37393F;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.27;
+}
+.blog-unord-list{
+  color: palevioletred;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+}
+.blog-ord-list{
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
