@@ -7,7 +7,9 @@ body{
   font-size: 18px;
   color: #7D7D7D;
 }
-
+.page{
+  padding: 10px 0 10px 10px;
+}
 /* CONSULTING */
 .consulting{
   max-width: 692px;
