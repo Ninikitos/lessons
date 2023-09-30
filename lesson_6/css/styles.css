@@ -1,0 +1,82 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  color: #7D7D7D;
+}
+
+/* CONSULTING */
+.consulting{
+  max-width: 692px;
+  margin-bottom: 200px;
+}
+.consulting-img{
+  margin-bottom: 24px;
+}
+.consulting-title,
+.consulting-subtitle,
+.consulting-list-title{
+  color: #37393F;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 1.27;
+}
+.consulting-text{
+  margin-bottom: 40px;
+  line-height: 1.46;
+}
+.consulting-title{
+  margin-bottom: 3px;
+  font-size: 30px;
+}
+.consulting-subtitle{
+  margin-bottom: 12px;
+  color: #6B77E5;
+  font-size: 20px;
+}
+.consulting-benefits-img{
+  max-height: 235px;
+  margin-right: 29px;
+}
+.consulting-benefits{
+  width: 50%;
+  display: inline-block;
+}
+.consulting-list-title{
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+.consulting-list-items-title{
+  margin-bottom: 24px;
+  color: #40DDB6;
+}
+.consulting-list-item{
+  margin-bottom: 30px;
+}
+
+/* JEWELLERY */
+.jewellery-content{
+  display: inline-block;
+  max-width: 563px;
+}
+.jewellery-subtitle{
+  margin-bottom: 13px;
+  color: #D06B00;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.jewellery-title{
+  margin-bottom: 25px;
+  color: #0E333D;
+  font-family: 'DM Serif Text', serif;
+  font-size: 59px;
+  line-height: 1.47;
+}
+.jewellery-text{
+  color: #474747;
+  font-size: 20px;
+  line-height: 1.8;
+}
