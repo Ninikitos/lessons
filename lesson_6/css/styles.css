@@ -59,6 +59,7 @@ body{
 
 /* JEWELLERY */
 .jewellery-content{
+  margin-right: 38px;
   display: inline-block;
   max-width: 563px;
 }
