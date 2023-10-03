@@ -1,0 +1,53 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.jewellery{
+  padding: 20px 0;
+  width: 1103px;
+  margin: 0 auto;
+  font-family: 'Cormorant Infant', serif;
+  font-size: 0;
+}
+.jewellery-content {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 503px;
+  margin-right: 75px;
+}
+.jewellery-sub-title {
+  margin-bottom: 27px;
+  color: #D58417;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.jewellery-title {
+  margin-bottom: 31px;
+  color: #000;
+  font-size: 64px;
+}
+.jewellery-text {
+  color: #606060;
+  font-size: 30px;
+}
+.jewellery-images{
+  display: inline-block;
+  font-size: 0;
+}
+.jewellery-image-container{
+  border-radius: 235px;
+  border: 1px solid #502203;
+  vertical-align: middle;
+  display: inline-block;
+}
+.jewellery-image-left {
+  display: inline-block;
+  margin-right: 30px;
+  padding-top: 10px;
+  margin-left: -10px;
+}
+.jewellery-image-right {
+  display: inline-block;
+  padding-top: 19px;
+}
