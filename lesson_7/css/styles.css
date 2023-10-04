@@ -8,7 +8,7 @@
 header{
   padding-top: 50px;
   max-width: 1240px;
-  margin: 0 auto;
+  margin: 0 auto 120px;
 }
 .logo {
   width: 50px;
@@ -35,7 +35,7 @@ header{
 .jewellery{
   padding: 20px 0;
   width: 1103px;
-  margin: 120px auto;
+  margin: 0 auto 120px;
   font-family: 'Cormorant Infant', serif;
   font-size: 0;
 }
@@ -87,7 +87,7 @@ header{
 /* SHOPPING */
 .shopping {
   max-width: 1240px;
-  margin: 120px auto;
+  margin: 0 auto 120px;
   font-family: "Cormorant", serif;
   font-weight: 400;
 }
@@ -147,7 +147,7 @@ header{
 /* Licencing */
 .licencing {
   max-width: 1220px;
-  margin: 0 auto;
+  margin: 0 auto 120px;
   font-family: 'Inter', sans-serif;
 }
 .licencing-heading{
@@ -218,7 +218,7 @@ header{
 /* Project */
 .project {
   max-width: 1220px;
-  margin: 0 auto;
+  margin: 0 auto 120px;
   font-family: 'Inter', sans-serif;
   padding-left: 385px;
 }
