@@ -169,7 +169,8 @@
 /* Euphoria */
 .euphoria {
   max-width: 1220px;
-  margin: 0 auto;
+  padding: 0 10px;
+  margin: 0 auto 120px;
   color: #807D7E;
   font-family: Cormorant;
   font-size: 20px;
@@ -201,20 +202,23 @@
 .euphoria-2{
   max-width: 1240px;
   font-size: 0;
+  padding-bottom: 120px;
 }
 .left {
   display: inline-block;
   vertical-align: top;
-  width: 50%;
+  width: 100%;
+  max-width: 620px;
   min-height: 640px;
-  padding: 183px 74px 174px;
-  background: url("../img/plams.jpg") left top / cover no-repeat;
+  padding: 183px 74px 135px;
+  background: url("../img/plams.jpg") center top / cover no-repeat;
 }
 .right {
   display: inline-block;
-  width: 50%;
+  width: 100%;
+  max-width: 599px;
   min-height: 640px;
-  background: url("../img/friends.jpg") right top / cover no-repeat;
+  background: url("../img/friends.jpg") center top / cover no-repeat;
 }
 .euphoria-hero-text {
   color: #FFF;
