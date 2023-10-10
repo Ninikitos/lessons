@@ -1,0 +1,258 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+/* CONSULTING - 1 */
+.consulting-font{
+  font-family: Inter;
+  color: #37393F;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.consulting-mb-sm{
+  margin-bottom: 15px;
+}
+.consulting-mb-md{
+  margin-bottom: 15px;
+}
+.consulting {
+  margin-left: 478px;
+  margin-bottom: 120px;
+  padding: 50px 0 50px 69px;
+  max-width: 742px;
+}
+.consulting-header {
+  margin-bottom: 16px;
+}
+.consulting-square {
+  display: inline-block;
+  background: #40DDB6;
+  width: 12px;
+  height: 12px;
+}
+.consulting-subtitle{
+  display: inline-block;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.consulting-title {
+  margin-bottom: 20px;
+  max-width: 414px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.21;
+  text-transform: capitalize;
+}
+.consulting-content {
+  color: #7D7D7D;
+  line-height: 1.46;
+  margin-bottom: 20px;
+}
+.consulting-list {
+  margin-bottom: 43px;
+}
+.consulting-list-item {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.65;
+  background: url("../img/round-icon.png") 0 3px no-repeat;
+  padding-left: 35px;
+  min-height: 33px;
+}
+.consulting-card {
+  font-size: 0px;
+  margin: 0 10px 37px 0;
+  display: inline-block;
+  max-width: 296px;
+  padding: 32px 32px 32px 93px;
+  border: 1px solid #E3E3E3;
+}
+.consulting-card-title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+.consulting-card-text {
+  color: #7D7D7D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+.consulting-paper{
+  background: url("../img/paper-icon.png") 32px 32px no-repeat;
+}
+.consulting-cup{
+  background: url("../img/cup-icon.png") 32px 32px no-repeat;
+}
+.consulting-cta{
+  display: block;
+  cursor: pointer;
+  padding: 21px 27px 22px 27px;
+  background: #6B77E5;
+  color: #FFF;
+  font-weight: 600;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+/* CONSULTING 2 */
+.consulting-align-center{
+  text-align: center;
+}
+.consulting-gallery{
+  max-width: 1220px;
+  margin: 0 auto 120px;
+}
+.consulting-second-title{
+  max-width: 687px;
+  margin: 0 auto 14px;
+}
+.consulting-second-content{
+  max-width: 852px;
+  margin: 0 auto 47px;
+  color: #7D7D7D;
+  line-height: 1.46;
+}
+.consulting-image-gallery{
+  font-size: 0;
+  margin-bottom: 58px;
+}
+.consulting-gallery-card{
+  width: 384px;
+  display: inline-block;
+}
+.consulting-gallery-card-mr{
+  margin-right: 34px;
+}
+.consulting-card-title{
+  margin-bottom: 10px;
+}
+.consulting-gallery-image{
+  width: 100%;
+  height: 501px;
+  margin-bottom: 24px;
+}
+.image-1{
+  background: url("../img/img_1.jpg") no-repeat;
+}
+.image-2{
+  background: url("../img/img_2.jpg") no-repeat;
+}
+.image-3{
+  background: url("../img/img_3.jpg") no-repeat;
+}
+.image-4{
+  background: url("../img/img_4.jpg") no-repeat;
+}
+.image-5{
+  background: url("../img/img_5.jpg") no-repeat;
+}
+.image-6{
+  background: url("../img/img_6.jpg") no-repeat;
+}
+.calendar-icon{
+  background: url("../img/calendar-icon.png") no-repeat;
+}
+.consulting-font-sm{
+  padding-left: 24px;
+  display: inline-block;
+  color: #7D7D7D;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.46;
+}
+
+/* Euphoria */
+.euphoria {
+  max-width: 1220px;
+  margin: 0 auto;
+  color: #807D7E;
+  font-family: Cormorant;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.68;
+  letter-spacing: 0.4px;
+}
+.euphoria-title {
+  color: #3C4242;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.5px;
+  background: url("../img/separator.png") 0 2px no-repeat;
+  padding-left: 21px;
+  margin-bottom: 30px;
+}
+.euphoria-subtitle {
+  margin-bottom: 25px;
+}
+.euphoria-content {
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.euphoria-text {
+  margin-bottom: 20px;
+}
+
+/* Euphoria 2 */
+.euphoria-2{
+  max-width: 1240px;
+  font-size: 0;
+}
+.left {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  min-height: 640px;
+  padding: 183px 74px 174px;
+  background: url("../img/plams.jpg") left top / cover no-repeat;
+}
+.right {
+  display: inline-block;
+  width: 50%;
+  min-height: 640px;
+  background: url("../img/friends.jpg") right top / cover no-repeat;
+}
+.euphoria-hero-text {
+  color: #FFF;
+  font-family: Cormorant;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.47;
+  letter-spacing: 0.3px;
+  margin-bottom: 30px;
+}
+.euphoria-sub-hero-text {
+  color: #FFF;
+  font-family: Cormorant;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+.euphoria-cta{
+  cursor: pointer;
+  padding: 12px 44px;
+  border-radius: 8px;
+  background: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
